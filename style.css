@@ -24,9 +24,24 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+.imageAboutPage {
+    width: 100%;
+}
 /* footer styling */
 #footer {
     background-color: #000000;
     text-align: center;
     color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 30px;
+    cursor: pointer;
+}
+.fa-github:hover, .fa-linkedin:hover{
+    color: #115e75;
+}
+.fab {
+    color: #ffffff;
 }
